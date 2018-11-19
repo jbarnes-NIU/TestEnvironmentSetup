@@ -21,7 +21,7 @@ namespace TestEnvironmentSetup.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "test";
+            return "test again";
         }
 
         // POST api/values
