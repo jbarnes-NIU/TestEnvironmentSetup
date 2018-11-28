@@ -21,7 +21,7 @@ namespace TestEnvironmentSetup.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "test again";
+            return "test sonar decorations";
         }
 
         // POST api/values
