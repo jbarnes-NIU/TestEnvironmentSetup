@@ -1,7 +1,7 @@
 language: csharp
 solution: TestEnvironmentSetup.sln
 mono: none
-dotnet: 2.1.403
+dotnet: 2.1.4
 
 addons:
   sonarcloud:
