@@ -7,7 +7,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CF3DAE9-C490-4489-9F7F-C21520E902E5}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		sonar-project.properties = sonar-project.properties
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEnvironmentSetup.Tests", "TestEnvironmentSetup.Tests\TestEnvironmentSetup.Tests.csproj", "{4756E707-C2A9-4A0F-A7E0-913E50A80695}"
