@@ -3,6 +3,13 @@ solution: TestEnvironmentSetup.sln
 mono: none
 dotnet: 2.1.500
 
+addons:
+  sonarcloud:
+    organization: jbarnes-niu-github
+    token:
+      secure: c2687ac4368863af88db71fdf3c37ee62c9a755b
+
 script:
   - dotnet restore
+  - sonar-scanner
   - dotnet test
