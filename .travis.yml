@@ -7,7 +7,7 @@ addons:
   sonarcloud:
     organization: jbarnes-niu-github
     token:
-      secure: c2687ac4368863af88db71fdf3c37ee62c9a755b
+      secure: f7406882a0d2cc84ab0dedd3ae18dcbae6a00149
 
 script:
   - dotnet restore
