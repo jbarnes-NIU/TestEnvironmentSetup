@@ -42,5 +42,10 @@ namespace TestEnvironmentSetup.Controllers
         public void Delete(int id)
         {
         }
+
+        private void DoSomething()
+        {
+            var i;
+        }
     }
 }
