@@ -1,7 +1,15 @@
 language: csharp
 solution: TestEnvironmentSetup.sln
 mono: none
-dotnet: 2.1.4
+dotnet: 2.1.500
+
+addons:
+  sonarcloud:
+    organization: jbarnes-niu-github
+    token:
+      secure: f7406882a0d2cc84ab0dedd3ae18dcbae6a00149
 
 script:
   - dotnet restore
+  - sonar-scanner
+  - dotnet test

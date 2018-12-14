@@ -3,7 +3,7 @@ using Xunit;
 
 namespace TestEnvironmentSetup.Tests
 {
-    public class UnitTest1
+    public class SampleUnitTests
     {
         [Fact]
         public void FailingTest()
