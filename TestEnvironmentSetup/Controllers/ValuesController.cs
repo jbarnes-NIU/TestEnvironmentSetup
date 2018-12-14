@@ -46,6 +46,7 @@ namespace TestEnvironmentSetup.Controllers
         private void DoSomething()
         {
             var i;
+            i = 100;
         }
     }
 }
