@@ -8,6 +8,5 @@ addons:
     organization: jbarnes-niu-github
 
 script:
-  - dotnet restore
   - sonar-scanner -X
   - dotnet test
