@@ -14,7 +14,7 @@ namespace TestEnvironmentSetup.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "somevalue1", "somevalue2" };
+            return new string[] { "anothervalue1", "anothervalue2" };
         }
 
         // GET api/values/5
